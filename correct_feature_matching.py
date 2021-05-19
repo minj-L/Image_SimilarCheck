@@ -1,7 +1,7 @@
 import cv2, numpy as np
 
-img1 = cv2.imread('./Image_SimilarCheck/images/original.jpg')
-img2 = cv2.imread('./Image_SimilarCheck/images/retouch.jpg')
+img1 = cv2.imread('./images/original.jpg')
+img2 = cv2.imread('./images/retouch.jpg')
 gray1 = cv2.cvtColor(img1, cv2.COLOR_BGR2GRAY)
 gray2 = cv2.cvtColor(img2, cv2.COLOR_BGR2GRAY)
 
