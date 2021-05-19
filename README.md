@@ -1,1 +1,1 @@
-# Image_SCheck
+# Image_SimilarCheck
