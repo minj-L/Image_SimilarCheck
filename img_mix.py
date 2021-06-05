@@ -14,8 +14,8 @@ def onChange(x):
 alpha = 0.5 # 합성에 사용할 알파 값
 
 #---① 합성에 사용할 영상 읽기
-img1 = cv2.imread('./Image_SimilarCheck/images/original.jpg') # queryImage
-img2 = cv2.imread('./Image_SimilarCheck/images/retouch.jpg') # trainImage
+img1 = cv2.imread('./Image_SimilarCheck/images/original_4.jpg') # queryImage
+img2 = cv2.imread('./Image_SimilarCheck/images/retouch_4.jpg') # trainImage
 gray1 = cv2.cvtColor(img1, cv2.COLOR_BGR2GRAY)
 gray2 = cv2.cvtColor(img2, cv2.COLOR_BGR2GRAY)
 

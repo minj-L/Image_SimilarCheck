@@ -1,7 +1,7 @@
 import cv2, numpy as np
 
-img1 = cv2.imread('./Image_SimilarCheck/images/original.jpg')
-img2 = cv2.imread('./Image_SimilarCheck/images/retouch.jpg')
+img1 = cv2.imread('./Image_SimilarCheck/images/original_4.jpg')
+img2 = cv2.imread('./Image_SimilarCheck/images/retouch_4.jpg')
 gray1 = cv2.cvtColor(img1, cv2.COLOR_BGR2GRAY) #본래 색상공간에서 다른 색상 공간으로 변환
 gray2 = cv2.cvtColor(img2, cv2.COLOR_BGR2GRAY) #img 1,2들을 그레이 색상으로 바꾸라는 의미
 
