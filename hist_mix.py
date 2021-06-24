@@ -12,7 +12,7 @@ def onChange(x):
 
 alpha = 0.5 # 합성에 사용할 알파 값
 
-img1 = cv2.imread('./Image_SimilarCheck/images/original.jpg')
+img1 = cv2.imread('./Image_SimilarCheck/images/original_3.jpg')
 img2 = cv2.imread('./Image_SimilarCheck/images/retouch.jpg')
 
 # 블렌딩하는 두 이미지의 크기를 같게 함
